@@ -1,5 +1,5 @@
 import {Request, Response, Router} from 'express'
-import {usersService} from '../../business-logic/users-service'
+import {usersService} from '../../composition-root'
 
 export const usersRouter = Router({})
 
